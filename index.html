@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>检索文件</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
-    <input type="button" id="btn" value="选择文件夹">
+    <!-- <div id="container">
+        <input type="text" id="path" />
+        <input type="file" id="folder-select" webkitdirectory multiple>
+    </div> -->
+    <form>
+		<label for="folder_path">请选择文件夹：</label>
+		<input type="file" id="folder_path" webkitdirectory directory multiple>
+		<input type="submit" value="确定">
+	</form>
+    <script src="jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
