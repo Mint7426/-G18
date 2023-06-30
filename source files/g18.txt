@@ -1,0 +1,4 @@
+
+框架：Django
+前端：HTML  CSS  JavaScript
+后端：python
