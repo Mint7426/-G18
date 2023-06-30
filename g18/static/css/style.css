@@ -1,0 +1,100 @@
+body{
+    background-color: #e6eaf8;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+input::-webkit-input-placeholder {       /* WebKit browsers */
+ 
+    color: #b5b9cc !important;
+     
+}
+#keyword{
+    width: 180px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 15px;
+    border-radius: 6px;
+    border: 2px solid #98afe0;
+}
+#path{
+    width: 180px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 2px solid #98afe0;
+}
+#openFileDialog{
+    width: 80px;
+    height: 36px;
+    font-size: 18px;
+    margin-left: 5px;
+    color: #fff;
+    background-color: #9398cb;
+    border-radius: 6px;
+    border: 2px solid #98afe0;
+}
+#seek{
+    width: 80px;
+    height: 36px;
+    font-size: 18px;
+    margin-left: 5px;
+    color: #fff;
+    background-color: #9398cb;
+    border-radius: 6px;
+    border: 2px solid #98afe0;
+}
+#openFileDialog:hover {
+    background-color: #bcbfec;
+}
+#openFileDialog:focus {
+    background-color: #9398cb;
+}
+#seek:hover {
+    background-color: #bcbfec;
+}
+#seek:focus {
+    background-color: #9398cb;
+}
+#container2{
+    display: flex;
+    flex-direction:column;
+    color: #5e6182;
+}
+#files,#results{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#files ul li{
+    list-style-type: none;
+}
+#keyword1{
+    color: red;
+}
+#results ul li{
+    list-style-type: none;
+}
+#download{
+    float:right;
+    margin: 30px;
+    width: 80px;
+    height: 36px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #9398cb;
+    border-radius: 6px;
+    border: 2px solid #98afe0;
+}
+#download:hover {
+    background-color: #bcbfec;
+}
+#download:focus {
+    background-color: #9398cb;
+}
